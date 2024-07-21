@@ -105,7 +105,7 @@ Reads the configuration and starts relaying packets.
    - saves connection ids to `app.yaml` file
    - creates a new channel
 
-4. Start the relayer in the verbose mode and 10s frequency polling
+4. Start the relayer in the verbose mode and 15s frequency polling
    ```sh
    ibc-relayer start -v --poll 15
    ```
